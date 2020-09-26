@@ -27,8 +27,6 @@ Links utilizados:
 
 
 ### :man: Autor
----
-
 <a href="http://www.alexbarbosa.info/">
  <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/12144620?s=460&u=b9785347e44440d8a08fbbaf61a72288c05671e0&v=4" width="100px;" alt=""/>
  <br />
