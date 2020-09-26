@@ -9,6 +9,7 @@
   "author": "Alex Felipe Barbosa",
   "license": "ISC",
   "dependencies": {
+    "bunyan": "^1.8.14",
     "express": "^4.17.1",
     "got": "^11.7.0",
     "newrelic": "^6.13.1",
