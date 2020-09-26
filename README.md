@@ -18,6 +18,7 @@ As seguintes ferramentas foram usadas no curso:
 - [Docker](https://docs.docker.com/engine/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - [NewRelic](https://newrelic.com/signup?via=login/)
+- [Redis](https://redisdesktop.com/)
 
 ### :trophy: Links
 
