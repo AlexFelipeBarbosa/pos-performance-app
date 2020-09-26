@@ -4,7 +4,7 @@
 
 Repositório criado para o modulo Performance e Instrumentação de Aplicações para Cloud da Pós da Unifacef
 
-### :teacher: Professor:
+### :teacher: Professor
 [Pedro Dias](https://github.com/pedroarapua/performance-instrumentation-app-class/)
 
 
