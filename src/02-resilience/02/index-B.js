@@ -1,5 +1,5 @@
 const express = require("express");
-const requestPromise = require("request-promise");
+const got = require("got");
 const app = express();
 const port = process.env.PORT || 3001;
 const host = process.env.HOSTNAME || "localhost";

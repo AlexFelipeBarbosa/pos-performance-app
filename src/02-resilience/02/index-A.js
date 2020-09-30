@@ -16,14 +16,12 @@ app.get("/", (req, res) => {
   const value = getRandom();
 
   if (value === 1) {
-    console.log("Sucesso");
+    console.info("Sucesso");
     res.send("OK");
   } else {
-    console.log("Erro na API A");
+    console.error("Erro na API A");
     res.status(500).send("Algum problema encontrado!");
   }
-
-  res.send(url);
 });
 
 app.listen(port, () => {

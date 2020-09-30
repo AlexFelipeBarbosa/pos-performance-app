@@ -1,4 +1,5 @@
 const express = require("express");
+const got = require("got");
 const app = express();
 const port = process.env.PORT || 3001;
 const host = process.env.HOSTNAME || "localhost";
@@ -17,7 +18,7 @@ breaker.on("halfOpen", () => console.log(`HALF_OPEN: The breaker`));
 breaker.on("close", () => console.log(`CLOSE: The breaker`));
 
 breaker.fallback(() => {
-  console.log("Passou pelo Fallback");
+  console.log("Fallback");
 });
 
 app.use(express.json());

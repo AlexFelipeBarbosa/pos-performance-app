@@ -12,7 +12,7 @@ async function requestApi(retryCount = 0, maxRetryCount = 1) {
   retryCount++;
 
   try {
-    return requestPromise(urlApi);
+    await requestPromise(urlApi);
   } catch (err) {
     if (retryCount <= maxRetryCount) {
       return await requestApi(retryCount, maxRetryCount);

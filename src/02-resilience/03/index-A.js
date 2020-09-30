@@ -22,8 +22,6 @@ app.get("/", (req, res) => {
     console.log("Erro na API A");
     res.status(500).send("Algum problema encontrado!");
   }
-
-  res.send(url);
 });
 
 app.listen(port, () => {

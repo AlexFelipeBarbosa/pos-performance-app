@@ -19,21 +19,6 @@ app.get("/", (req, res) => {
   console.log("Sucesso!!!!");
   res.send("OK");
 });
-/*
-app.get("/", (req, res) => {
-  const value = getRandom();
-
-  if (value === 1) {
-    console.log("Sucesso");
-    res.send("OK");
-  } else {
-    console.log("Erro na API A");
-    res.status(500).send("Algum problema encontrado!");
-  }
-
-  res.send(url);
-});
-*/
 
 app.get("/error", (req, res) => {
   res.status(500).send("Ocorreu um erro na API!");
